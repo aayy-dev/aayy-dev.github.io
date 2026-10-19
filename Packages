@@ -21,6 +21,29 @@ Icon: https://dev.rtrdd.fyi/icons/dev.rtrdd.ipadecrypt-cli.png
 Name: ipadecrypt-cli
 SileoDepiction: https://dev.rtrdd.fyi/depictions/dev.rtrdd.ipadecrypt-cli.json
 
+Package: dev.rtrdd.ipatool
+Version: 2.7.0+git20261019.0e1d1d3
+Architecture: iphoneos-arm64
+Maintainer: aay <275768457+aayy-dev@users.noreply.github.com>
+Installed-Size: 43520
+Depends: firmware (>= 15.0)
+Filename: debs/dev.rtrdd.ipatool_2.7.0+git20261019.0e1d1d3_iphoneos-arm64.deb
+Size: 14140736
+MD5sum: 28cbd785764772e317991897d38d88dc
+SHA1: b4b3b4e632e3b94c5b3200c3dc6c03aba6eea6dd
+SHA256: 0702ebefd2de937b12425a86da438fc603067f0a0414732ca0c3fa337ebe32db
+Section: Utilities
+Priority: optional
+Homepage: https://github.com/aayy-dev/ipatool
+Description: Search for and download apps from the App Store
+ Command line tool that searches the App Store for iOS, iPadOS, tvOS,
+ watchOS, visionOS and macOS apps, and downloads their .ipa or .pkg
+ packages with your Apple ID. Built from aay's fork of majd/ipatool.
+Author: Majd Alfhaily
+Depiction: https://dev.rtrdd.fyi/depictions/dev.rtrdd.ipatool.html
+Name: ipatool
+SileoDepiction: https://dev.rtrdd.fyi/depictions/dev.rtrdd.ipatool.json
+
 Package: dev.rtrdd.toprow
 Version: 2.0.0
 Architecture: iphoneos-arm64
