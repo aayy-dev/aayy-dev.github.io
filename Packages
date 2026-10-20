@@ -1,3 +1,50 @@
+Package: dev.aayy.appinst
+Version: 2.1.1+crowbar1.aayy1
+Architecture: iphoneos-arm64
+Maintainer: aayy-dev
+Installed-Size: 364
+Pre-Depends: firmware (>= 5.0)
+Depends: dev.aayy.appsyncunified (>= 5.1)
+Conflicts: com.sull.appinstaller, com.linusyang.appinst, ai.akemi.appinst, xyz.cypwn.appinst
+Replaces: com.linusyang.appinst, ai.akemi.appinst, xyz.cypwn.appinst
+Provides: com.linusyang.appinst, ai.akemi.appinst
+Filename: debs/dev.aayy.appinst_2.1.1+crowbar1.aayy1_iphoneos-arm64.deb
+Size: 51266
+MD5sum: 61b012f0a925119f26c57db329c27545
+SHA1: 0d5763fd464edf4c5c7acfa98bc6fc5e2546144c
+SHA256: 6e4ff809dc23b99362c95f3a3e3e319f0fd0eada668dc246fb5ca3ba0692039d
+Section: Utilities
+Priority: standard
+Homepage: https://github.com/aayy-dev/AppSync
+Description: A command-line IPA app installer. iOS 26 fork: falls back to MobileInstallation's MIInstallerClient when LaunchServices installApplication returns unimpErr.
+Tag: role::enduser, purpose::console
+Author: Karen/あけみ, Linus Yang, Anson (crowbar), aayy-dev
+Depiction: https://dev.rtrdd.fyi/depictions/dev.aayy.appinst.html
+Name: appinst (App Installer, iOS 26)
+SileoDepiction: https://dev.rtrdd.fyi/depictions/dev.aayy.appinst.json
+
+Package: dev.aayy.appsyncunified
+Version: 116.0+crowbar1.aayy1
+Architecture: iphoneos-arm64
+Maintainer: aayy-dev
+Installed-Size: 340
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<< 27.0)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ai.akemi.appsyncunified, xyz.cypwn.appsyncunified, ellekit (<< 1.1)
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified, ai.akemi.appsyncunified, xyz.cypwn.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified, ai.akemi.appsyncunified
+Filename: debs/dev.aayy.appsyncunified_116.0+crowbar1.aayy1_iphoneos-arm64.deb
+Size: 13306
+MD5sum: e1b5a668c7803cee52834c7d74975dfa
+SHA1: df9a3fb260d6bb6d004744382362991b588aaea7
+SHA256: 5c3090f5aebe3478dce04d36c9cd4b63f8caf6a802e8d46631ad08fee008660e
+Section: Tweaks
+Homepage: https://github.com/aayy-dev/AppSync
+Description: Enables the ability to install unsigned/fakesigned iOS applications. iOS 26 fork of akemin-dayo/AppSync (installd + FrontBoard hooks unchanged).
+Author: Karen/あけみ, Linus Yang, Anson (crowbar), aayy-dev
+Depiction: https://dev.rtrdd.fyi/depictions/dev.aayy.appsyncunified.html
+Name: AppSync Unified (iOS 26)
+SileoDepiction: https://dev.rtrdd.fyi/depictions/dev.aayy.appsyncunified.json
+
 Package: dev.aayy.ipadecrypt
 Version: 0.7.3-aayy.5
 Architecture: iphoneos-arm64
