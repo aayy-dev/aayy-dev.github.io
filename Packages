@@ -46,17 +46,17 @@ Name: AppSync Unified (iOS 26)
 SileoDepiction: https://dev.rtrdd.fyi/depictions/dev.aayy.appsyncunified.json
 
 Package: dev.aayy.ipadecrypt
-Version: 0.7.3-aayy.5
+Version: 0.7.3-aayy.6
 Architecture: iphoneos-arm64
 Maintainer: aayy-dev <275768457+aayy-dev@users.noreply.github.com>
-Installed-Size: 41352
+Installed-Size: 41756
 Conflicts: com.korboy.ipadecrypt, com.korboy.ipadecrypt-app
 Replaces: com.korboy.ipadecrypt, com.korboy.ipadecrypt-app
-Filename: debs/dev.aayy.ipadecrypt_0.7.3-aayy.5_iphoneos-arm64.deb
-Size: 13720186
-MD5sum: 98cdd83c4d1558ea6f841c5773af8a8d
-SHA1: 37df91fcfce9f2301660f96e8a2a0b2a4aa72f46
-SHA256: fa00a1c49f19bc1c262dad35dde220f72012dc3f156e94d7d06ac706f63b8c43
+Filename: debs/dev.aayy.ipadecrypt_0.7.3-aayy.6_iphoneos-arm64.deb
+Size: 13907348
+MD5sum: 548c9367e7d8f8a359e9ff3f020ca0cf
+SHA1: 5f2e7135d57b83b3dcedd7e9aecaae0ea6386838
+SHA256: cf185b6e64742c1a085cbeb5c0985edc9e54d865a9026a284345c944903f23dc
 Section: Applications
 Homepage: https://github.com/aayy-dev/ipadecrypt
 Description: On-device IPA decrypter. A fork of korboy's ipadecrypt (itself a fork of londek's) whose App Store sign-in and downloads work with Apple's current API.
@@ -89,16 +89,16 @@ Name: ipadecrypt-cli
 SileoDepiction: https://dev.rtrdd.fyi/depictions/dev.rtrdd.ipadecrypt-cli.json
 
 Package: dev.rtrdd.ipatool
-Version: 2.7.0+git202610192257.01a4b11
+Version: 2.7.0+git202610201801.6694ba3
 Architecture: iphoneos-arm64
 Maintainer: aay <275768457+aayy-dev@users.noreply.github.com>
 Installed-Size: 44472
 Depends: firmware (>= 15.0)
-Filename: debs/dev.rtrdd.ipatool_2.7.0+git202610192257.01a4b11_iphoneos-arm64.deb
-Size: 14356536
-MD5sum: 39051afba75dc045738fd882a60c6098
-SHA1: ecc4f64674f7df5a876b6e95706f72a16fc2624b
-SHA256: e45bfab200d02b4bf677fc48b990e9f5fab66a8a28a821224dc1ed77a41fbf3f
+Filename: debs/dev.rtrdd.ipatool_2.7.0+git202610201801.6694ba3_iphoneos-arm64.deb
+Size: 14355788
+MD5sum: e36a9f9b7992e2dc44c701cf18bb1107
+SHA1: d3f1b2eb7b984c674d6c30412c23acfb5315f736
+SHA256: 65f68a9e591403dc77e1cb6a0076bfcf1a7dd52ba58355b2c1d71f577d7617e4
 Section: Utilities
 Priority: optional
 Homepage: https://github.com/aayy-dev/ipatool
@@ -106,7 +106,7 @@ Description: Search for and download apps from the App Store
  Command line tool that searches the App Store for iOS, iPadOS, tvOS,
  watchOS, visionOS and macOS apps, and downloads their .ipa or .pkg
  packages with your Apple ID. aay's fork of majd/ipatool, patched to run
- the App Store signing emulator (JIT) on jailbroken iOS 26.
+ the App Store signing emulator (JIT) on jailbroken iOS, including iOS 26.
 Author: Majd Alfhaily
 Depiction: https://dev.rtrdd.fyi/depictions/dev.rtrdd.ipatool.html
 Name: ipatool
