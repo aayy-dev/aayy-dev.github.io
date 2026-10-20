@@ -1,4 +1,4 @@
-**TopRow** puts a number row on top of the stock iOS keyboard, so you stop switching to 123 for every digit. New in 2.0: change any other key on it too, and save and share your setups.
+**TopRow** puts a number row on top of the stock iOS keyboard, so you stop switching to 123 for every digit. Change any other key on it too, and save and share your setups. New in 2.1: iOS 26 support.
 
 - **Letters:** `1 2 3 4 5 6 7 8 9 0`
 - **Shift / Caps Lock:** `! @ # $ % ^ & * ( )`
@@ -24,6 +24,6 @@
 
 **Works where you type:** apps, Safari, password fields, share sheets, and password managers' AutoFill sheets. Number, phone and passcode pads are left alone, and the Bottom Area slider plays nicely with dock bars from other tweaks.
 
-**Compatibility:** iPhone on rootless jailbreaks, iOS 15 and later. Developed and tested on iOS 17.3.1 with Dopamine; reports from other versions are welcome. The Keys page changes the US English (QWERTY) layout; other languages keep their own keys. Does nothing on iPad, whose keyboards already put digits on their keys. Uninstall any other number-row tweak before installing: two of them on the same keyboard means overlapping rows and layout bugs.
+**Compatibility:** iPhone on rootless jailbreaks, iOS 15 and later, including iOS 26. Tested on iOS 26.0, 17.3.1 and 16.2 with Dopamine; reports from other versions are welcome. The Keys page changes the US English (QWERTY) layout; other languages keep their own keys. On iOS 26 all pages of a keyboard share one height, so a page whose row you leave empty gets an empty band at the top, and the name-and-phone-number keyboard stays stock. Does nothing on iPad, whose keyboards already put digits on their keys. Uninstall any other number-row tweak before installing: two of them on the same keyboard means overlapping rows and layout bugs.
 
 **Free and open source** under the MIT license: [github.com/aayy-dev/TopRow](https://github.com/aayy-dev/TopRow). If something breaks, use **Share Diagnostics** in TopRow's settings and attach the file to an issue.

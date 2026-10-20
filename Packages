@@ -113,16 +113,16 @@ Name: ipatool
 SileoDepiction: https://dev.rtrdd.fyi/depictions/dev.rtrdd.ipatool.json
 
 Package: dev.rtrdd.toprow
-Version: 2.0.0
+Version: 2.1.0
 Architecture: iphoneos-arm64
 Maintainer: aay <275768457+aayy-dev@users.noreply.github.com>
-Installed-Size: 632
+Installed-Size: 716
 Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader, com.opa334.altlist
-Filename: debs/dev.rtrdd.toprow_2.0.0_iphoneos-arm64.deb
-Size: 95034
-MD5sum: 5cf18af2f38d699d2ee7c391a3b4fbab
-SHA1: 60418a897077cd5f9e97b7e394eac2a38657c10e
-SHA256: f196cff5f2690fbe590720acf3327a42bdb1cf625cd6447a8c7f743f3614bc66
+Filename: debs/dev.rtrdd.toprow_2.1.0_iphoneos-arm64.deb
+Size: 111702
+MD5sum: 461cefe791e8d41874e3c53f1af60f27
+SHA1: d549f95cf77047cfa13c6def8b83c0e2de381e0c
+SHA256: 6e9ab99523699318f65b1d46ef8120e497c4db7a9f69a505e81e17195f44185a
 Section: Tweaks
 Homepage: https://github.com/aayy-dev/TopRow
 Description: A number row on top, and every key your way
