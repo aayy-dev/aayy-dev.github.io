@@ -89,16 +89,16 @@ Name: ipadecrypt-cli
 SileoDepiction: https://dev.rtrdd.fyi/depictions/dev.rtrdd.ipadecrypt-cli.json
 
 Package: dev.rtrdd.ipatool
-Version: 2.7.0+git202610201801.6694ba3
+Version: 2.7.1
 Architecture: iphoneos-arm64
 Maintainer: aay <275768457+aayy-dev@users.noreply.github.com>
 Installed-Size: 44472
 Depends: firmware (>= 15.0)
-Filename: debs/dev.rtrdd.ipatool_2.7.0+git202610201801.6694ba3_iphoneos-arm64.deb
-Size: 14355788
-MD5sum: e36a9f9b7992e2dc44c701cf18bb1107
-SHA1: d3f1b2eb7b984c674d6c30412c23acfb5315f736
-SHA256: 65f68a9e591403dc77e1cb6a0076bfcf1a7dd52ba58355b2c1d71f577d7617e4
+Filename: debs/dev.rtrdd.ipatool_2.7.1_iphoneos-arm64.deb
+Size: 14358884
+MD5sum: d7f5093aab2392b7ffabf336e2bad14e
+SHA1: 4df2a798bda5f58c4d40e4df431c124d815dd7e9
+SHA256: e249397952f9ff4ec7af7e0f447b2c6cd21eaa59156aa1fbebf480eaafb98272
 Section: Utilities
 Priority: optional
 Homepage: https://github.com/aayy-dev/ipatool

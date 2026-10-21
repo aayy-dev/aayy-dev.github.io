@@ -25,7 +25,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "2.7.0+git202610201801.6694ba3"
+          "text": "2.7.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -56,7 +56,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**2.7.0+git202610201801.6694ba3**\n\n- Released."
+          "markdown": "**2.7.1**\n\n- Released."
         }
       ]
     }
