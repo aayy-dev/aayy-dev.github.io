@@ -22,8 +22,8 @@ SIGN_KEY="${SIGN_KEY:-}"
 
 # ---- repo identity / layout (edit these) ----------------------------------
 BASE_URL="https://dev.rtrdd.fyi"
-ORIGIN="rTrDD Repo"
-LABEL="rTrDD Repo"
+ORIGIN="aayy-dev repo"
+LABEL="aayy-dev repo"
 REPO_DESC="https://dev.rtrdd.fyi/"
 ARCHS="iphoneos-arm64"
 TINT="#58a6ff"
