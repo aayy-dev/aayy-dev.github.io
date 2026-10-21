@@ -329,8 +329,8 @@ emit_hashes() {  # $1 = section header, $2 = hasher fn name
 if [[ -n "$SIGN_KEY" ]]; then
     echo "==> signing Release with $SIGN_KEY"
     rm -f InRelease Release.gpg
-    gpg --default-key "$SIGN_KEY" --clearsign -o InRelease Release
-    gpg --default-key "$SIGN_KEY" -abs        -o Release.gpg Release
+    gpg --batch --yes --default-key "$SIGN_KEY" --clearsign -o InRelease Release
+    gpg --batch --yes --default-key "$SIGN_KEY" -abs        -o Release.gpg Release
 else
     echo "==> SIGN_KEY not set, leaving repo unsigned"
 fi

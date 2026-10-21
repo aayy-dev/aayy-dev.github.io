@@ -1,0 +1,88 @@
+name: Publish to repo
+
+# Triggered by a source repo's release (repository_dispatch, event_type
+# "publish-deb", client_payload {repo, tag}) or run by hand. Pulls that
+# release's .deb(s), replaces the old build of each package in debs/, rebuilds
+# and signs the APT repo, and pushes — so dev.rtrdd.fyi serves the update.
+on:
+  repository_dispatch:
+    types: [publish-deb]
+  workflow_dispatch:
+    inputs:
+      repo:
+        description: owner/repo that published (e.g. aayy-dev/ipatool)
+        required: true
+      tag:
+        description: release tag to pull (e.g. v2.7.1)
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-ios-repo
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Resolve inputs
+        id: in
+        run: |
+          repo='${{ github.event.client_payload.repo || inputs.repo }}'
+          tag='${{ github.event.client_payload.tag || inputs.tag }}'
+          [ -n "$repo" ] && [ -n "$tag" ] || { echo "::error::repo/tag missing"; exit 1; }
+          echo "repo=$repo" >> "$GITHUB_OUTPUT"
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+
+      - name: Install tools
+        run: sudo apt-get update && sudo apt-get install -y dpkg-dev gnupg xz-utils zstd bzip2
+
+      - name: Import signing key
+        run: |
+          mkdir -p ~/.gnupg && chmod 700 ~/.gnupg
+          printf '%s\n' 'pinentry-mode loopback' > ~/.gnupg/gpg.conf
+          printf '%s\n' 'allow-loopback-pinentry' > ~/.gnupg/gpg-agent.conf
+          gpgconf --kill gpg-agent || true
+          printf '%s' "${{ secrets.SIGN_GPG_PRIVATE_KEY }}" | gpg --batch --import
+
+      - name: Download release debs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p incoming
+          gh release download "${{ steps.in.outputs.tag }}" --repo "${{ steps.in.outputs.repo }}" \
+            --pattern '*.deb' --dir incoming
+          ls -l incoming
+
+      - name: Stage debs (replace older build of each package)
+        run: |
+          for deb in incoming/*.deb; do
+            pkg=$(dpkg-deb -f "$deb" Package)
+            echo "staging $pkg -> $(basename "$deb")"
+            git rm -q --ignore-unmatch "debs/${pkg}_"*.deb || true
+            rm -f "debs/${pkg}_"*.deb
+            cp "$deb" debs/
+          done
+          rm -rf incoming
+
+      - name: Build + sign repo
+        run: ./build-repo.sh
+
+      - name: Verify signature
+        run: gpg --verify InRelease
+
+      - name: Commit + push
+        run: |
+          git config user.name 'aayy-dev'
+          git config user.email '275768457+aayy-dev@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then
+            echo "no changes to publish"
+          else
+            git commit -m "publish ${{ steps.in.outputs.repo }} ${{ steps.in.outputs.tag }}"
+            git push
+          fi
