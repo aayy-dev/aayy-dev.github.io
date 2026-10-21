@@ -72,10 +72,10 @@ Maintainer: aayy-dev
 Installed-Size: 46372
 Depends: gawk, unzip, plutil
 Filename: debs/dev.aayy.iparanger_2.7.1_iphoneos-arm64.deb
-Size: 14998632
-MD5sum: 23fbb3ab3b5f62ac91264bfe0dc9c294
-SHA1: d7164682c8d3f572466d05e20b748db9a0181a37
-SHA256: 25448a5a1cd69960a536ac11b4fec1526c477765ec78eccc56b9b993fe2ffc3b
+Size: 14995764
+MD5sum: 5238749e4298a7abf9ed5f86fa37bec0
+SHA1: d9d418c4ef570b10a4d46167f167bef662e53155
+SHA256: 54122cbc10fedea0f742c1b4aed1103a477b2339584122c649cb4022912e693c
 Section: Applications
 Description: GUI Based Application for ipatool
 Author: aayy-dev
