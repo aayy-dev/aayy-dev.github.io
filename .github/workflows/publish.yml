@@ -59,6 +59,10 @@ jobs:
           ls -l incoming
 
       - name: Stage, build, sign, and push (race-safe)
+        env:
+          # key id (not secret; the private key is imported from SIGN_GPG_PRIVATE_KEY).
+          # .repoenv is gitignored, so build-repo.sh needs SIGN_KEY from the env to sign.
+          SIGN_KEY: '608E0DB65BB31516'
         run: |
           git config user.name 'aayy-dev'
           git config user.email '275768457+aayy-dev@users.noreply.github.com'
