@@ -92,13 +92,13 @@ Package: dev.rtrdd.ipatool
 Version: 2.7.1
 Architecture: iphoneos-arm64
 Maintainer: aay <275768457+aayy-dev@users.noreply.github.com>
-Installed-Size: 44472
+Installed-Size: 44252
 Depends: firmware (>= 15.0)
 Filename: debs/dev.rtrdd.ipatool_2.7.1_iphoneos-arm64.deb
-Size: 14358884
-MD5sum: d7f5093aab2392b7ffabf336e2bad14e
-SHA1: 4df2a798bda5f58c4d40e4df431c124d815dd7e9
-SHA256: e249397952f9ff4ec7af7e0f447b2c6cd21eaa59156aa1fbebf480eaafb98272
+Size: 14306192
+MD5sum: f1bbe24e0a27703bb826d612f924b187
+SHA1: bd9af62fd0a54406653d39f22ab00e9903415879
+SHA256: f6c042754524b51f157d6d45ede89f92046a9059c329b1c638d27ff8d4bf3d9b
 Section: Utilities
 Priority: optional
 Homepage: https://github.com/aayy-dev/ipatool

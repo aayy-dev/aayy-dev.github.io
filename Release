@@ -3,19 +3,19 @@ Label: rTrDD Repo
 Suite: stable
 Version: 1.0
 Codename: ios
-Date: Wed, 21 Oct 2026 01:20:08 UTC
+Date: Wed, 21 Oct 2026 02:17:45 UTC
 Architectures: iphoneos-arm64
 Components: main
 Description: https://dev.rtrdd.fyi/
 MD5Sum:
- 8335a7e53f913bd56c5a1db0aab5ebde 7365 Packages
- 8af7602622b562e793ee81aeeb413675 2797 Packages.bz2
- f2f66f8786b787182eb713cec2fa9385 2662 Packages.gz
- 86a75127f272e6d6e0ce03c75e9423db 2676 Packages.xz
- 07a2247408174ce598b5753b13aa3660 2634 Packages.zst
+ e5bd9f9b48608aca6367c5513785967e 7365 Packages
+ cd3ea73a4a8cfc743d3a9cb9f629a222 2781 Packages.bz2
+ cf907c62e87c71baca0269a995c830b5 2661 Packages.gz
+ 517b3862aaa16da03003dd9421222a6a 2664 Packages.xz
+ c16be7d355709f60758f0ba30a11a46e 2639 Packages.zst
 SHA256:
- 40d1711c99d0e81d536abdb50de110fa43c80be020a5c8db6fb603e754d343cf 7365 Packages
- c1b801df38f611ed25f43a394ebe05989b089b7c7d50e74aa677866047438c83 2797 Packages.bz2
- 9b15c6a729d9a3189e1aea3b430e42b04b15ab44d5b7f0b4feaada3bafda5ed9 2662 Packages.gz
- 522911ecbd45fba7a2362f97709b8913678c8e267fb68a0a77c5e2fb573ddc1f 2676 Packages.xz
- d550d1fe2cad62ffa05a8b15070835a4156069f1dedc469efbc01f44beb4ac6c 2634 Packages.zst
+ cc3e4f2c4a86870ea144f96bdadcd3e2779bb293d4e547caac920bd9701c3383 7365 Packages
+ 4a9889077431015a80731f12b85f9bad7b44cf6d24d901f7fd92424a2cbd9b50 2781 Packages.bz2
+ e66722c598aae7e28be33f683a57cd0a3c704d2737800e9e95408eccfea769ee 2661 Packages.gz
+ 79dfaad9052fecb34647d5743eca2f65720dce1dc4234ac2ab0c698fbd3977c0 2664 Packages.xz
+ 44369bfc7df31b9f59ff2f70fc04d69447449205421af6e63b9994e365c172d9 2639 Packages.zst
