@@ -66,16 +66,16 @@ Name: ipadecrypt
 SileoDepiction: https://dev.rtrdd.fyi/depictions/dev.aayy.ipadecrypt.json
 
 Package: dev.aayy.iparanger
-Version: 2.7.1
+Version: 2.7.2
 Architecture: iphoneos-arm64
 Maintainer: 0xkuj, aayy-dev
 Installed-Size: 46372
 Depends: gawk, unzip, plutil
-Filename: debs/dev.aayy.iparanger_2.7.1_iphoneos-arm64.deb
-Size: 15000270
-MD5sum: 5b0712ef8f56ed8acff8008ce689d273
-SHA1: 84f012bf98b20d3089978b3454fd6283b04b4c81
-SHA256: 5253a57496c45e775a8299cb6a2a97fd500870255dab0bbccaebf4a83edff468
+Filename: debs/dev.aayy.iparanger_2.7.2_iphoneos-arm64.deb
+Size: 15000792
+MD5sum: 8f9480e205d47852c8c095f705ee4e9d
+SHA1: 493236a414f177c9765653eacd58fdb54995757e
+SHA256: c6b3db8c0ee455e4f149d39a05ee939a610b0c48f42dd1a7f41671f03226d980
 Section: Applications
 Description: GUI Based Application for ipatool
 Author: 0xkuj, aayy-dev

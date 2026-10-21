@@ -25,7 +25,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "2.7.1"
+          "text": "2.7.2"
         },
         {
           "class": "DepictionTableTextView",
@@ -50,7 +50,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**2.7.1**\n\n- Released."
+          "markdown": "**2.7.2**\n\n- Released."
         }
       ]
     }
