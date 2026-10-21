@@ -1,41 +1,40 @@
 -----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA256
+Hash: SHA512
 
-Origin: rTrDD Repo
-Label: rTrDD Repo
+Origin: aayy-dev repo
+Label: aayy-dev repo
 Suite: stable
 Version: 1.0
 Codename: ios
-Date: Wed, 21 Oct 2026 01:20:08 UTC
+Date: Wed, 21 Oct 2026 03:56:41 UTC
 Architectures: iphoneos-arm64
 Components: main
 Description: https://dev.rtrdd.fyi/
 MD5Sum:
- 8335a7e53f913bd56c5a1db0aab5ebde 7365 Packages
- 8af7602622b562e793ee81aeeb413675 2797 Packages.bz2
- f2f66f8786b787182eb713cec2fa9385 2662 Packages.gz
- 86a75127f272e6d6e0ce03c75e9423db 2676 Packages.xz
- 07a2247408174ce598b5753b13aa3660 2634 Packages.zst
+ ec609d8b7a95cca73919c42e6a8c0847 7915 Packages
+ 311cd77510e0a90004d73afea6f8e7c6 2921 Packages.bz2
+ 1af36d072349fce1d3e181a9cbca5237 2827 Packages.gz
+ e9d7d76caadd956fe1b5c94c607e1ac1 2804 Packages.xz
+ a9ada4c58c32cd1692c4eec44fecf46c 2786 Packages.zst
 SHA256:
- 40d1711c99d0e81d536abdb50de110fa43c80be020a5c8db6fb603e754d343cf 7365 Packages
- c1b801df38f611ed25f43a394ebe05989b089b7c7d50e74aa677866047438c83 2797 Packages.bz2
- 9b15c6a729d9a3189e1aea3b430e42b04b15ab44d5b7f0b4feaada3bafda5ed9 2662 Packages.gz
- 522911ecbd45fba7a2362f97709b8913678c8e267fb68a0a77c5e2fb573ddc1f 2676 Packages.xz
- d550d1fe2cad62ffa05a8b15070835a4156069f1dedc469efbc01f44beb4ac6c 2634 Packages.zst
+ a48ec4a7c6794a7fd86ec4324b99b31630a6c6d9341df6b6356afb876f35d7b7 7915 Packages
+ fad842d6961b3e026e5b4a17eebf0165f1af91fd5347eb8decebfcddc8407be6 2921 Packages.bz2
+ 7f8af85fd78581dcc15fdeceb3e1fae5293063d4ce39c85c0d42a2981fe25f1f 2827 Packages.gz
+ 68bf1565615d610afe4de43fdcccf4d41cb45284f497391aaf68e773b6707dd9 2804 Packages.xz
+ 517eedde02394e1c3b988003bdce23a2d5bb59854dabbaaa0b574a09714770f2 2786 Packages.zst
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAEBCAA5FiEE+TpY8vw+k+jo5gJ8YI4NtluzFRYFAmrYE0gbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMCwzAAoJEGCODbZbsxUWIgIP/RfsJ6fTkh3eOwyWEsbO
-T2WXAbyBfownp6Fdk68NfkpCkhI9fj4CV4HvsIb6Xs6w9t/oMlxDOcZDoFgBQw7J
-JswphJIM1F3VMjuLpB1ZifBLnDc3ug1rpsSaiMh3hBJt1HjqX22qWtRqxRPgblRq
-hWYS4qNGzAHA22XF4onQq5lstx8mHEqeTjUNDlRE/+Ufh4vRPy+fyiu9eKNg05bN
-v0tmrjjQRAVBRAZ1u0Y2nxv4j/L8uCOHcSCA7VHbPhMBaucHTO69axnbCqqRxgbS
-CG+oYnf4gtRhn3s0dnDz1Oi6wFhLe983U3IcfKDhU8dw2/toiw4Lyfhv0x/wk3kL
-b7Jkm50yzWS1YwIALibctaisikXayLCJOsGl1ApGvzBVZgtpiMQ06s/1ZGQaLQG1
-MdZJsyUcDbVfhQOsHR2TEoq/D8doL6RDmj8keaicq8wGzTH6/aWYRDHjDa/V0vy6
-owEsuY7Ehe6TEEo930502mcQ4hFYAsOkCIPhM3ZbqPHMEJ7lTFeRL6mzTzbPqRVP
-yhdeqz8+lDU8UFsFD0TyWsFX6Eo2vXtxDWUe4+kW+dmjVkd3ThJzNxpaGXrKc9ni
-5XqoEn7FXRYn4rqN6H88OPVFC9KHx+P48W6gCqH9j7vldZc+PcetU1VNjmyG2hyg
-uXjle3YzoUKAdhMZ1Tfkhve+
-=/0mf
+iQIzBAEBCgAdFiEE+TpY8vw+k+jo5gJ8YI4NtluzFRYFAmrYN/kACgkQYI4Ntluz
+FRZ1vBAAtj5iC/bw1bFKMf4tak9PXGjq8uY/hk1qX+2qHvAbq2/3QpM851Z9xaoD
+1rVFDtN/P5Gw7b5SZsBez58IoXGseGU5iK0bHFJClYJ6V4CzZcMJ75AgeJ6rTyHz
+5p9wQcshphjYIGgG/XW8+KWpiyW0ko4p7MubNP5YozvYjZlKe0rgbhMt8Uh/iPnx
+8ddtouqjjACP72vMk6dvrv+NYWtoaFwlor5B+VikXsLnSGX7yxtTFF9F79cA0bvj
+uELcpKHsLKbRY2RWMDfMWoOJcGKOVkNZJerpEnSDAfa+cGscmic33avjibIwEt8U
+SACzfGtX9EYfyeCEy31QFjX2kJ6/ijQ3L+GaYNnPzT0NFWtxzhERPqeUUccuj66h
+eoI0BZ64gkQrPmJ5Pt3n9khQ82BW/4bs/1KwT1Un47CSXmvSnmXVc5rbfY5J2exq
+c+mU1rPhTsA098OekVXjmFsTuA0/g/EFa73E5wnhnGykJESD+obRAr5UrBecdfeB
+PwfMAjIyHBniUBiYbnDq+VP/6nu8Bgedl5mwi5ULyic4VwEC7LDiu4RN8q0JKjgU
+UT3eeXxOu/qMGKE0MQCLPhMbXwGm3U1ufJvVdTc2G3ynzB8ITfbHfpneAzLEFNC/
+okc7KrihtW2a1E6oTj2Jvhpw36xvbcK3O+0RCZhaFUHhvUTG024=
+=olKH
 -----END PGP SIGNATURE-----
