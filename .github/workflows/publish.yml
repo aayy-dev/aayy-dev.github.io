@@ -58,31 +58,29 @@ jobs:
             --pattern '*.deb' --dir incoming
           ls -l incoming
 
-      - name: Stage debs (replace older build of each package)
-        run: |
-          for deb in incoming/*.deb; do
-            pkg=$(dpkg-deb -f "$deb" Package)
-            echo "staging $pkg -> $(basename "$deb")"
-            git rm -q --ignore-unmatch "debs/${pkg}_"*.deb || true
-            rm -f "debs/${pkg}_"*.deb
-            cp "$deb" debs/
-          done
-          rm -rf incoming
-
-      - name: Build + sign repo
-        run: ./build-repo.sh
-
-      - name: Verify signature
-        run: gpg --verify InRelease
-
-      - name: Commit + push
+      - name: Stage, build, sign, and push (race-safe)
         run: |
           git config user.name 'aayy-dev'
           git config user.email '275768457+aayy-dev@users.noreply.github.com'
-          git add -A
-          if git diff --cached --quiet; then
-            echo "no changes to publish"
-          else
+          for attempt in 1 2 3 4 5; do
+            # rebuild on top of the latest main each try, so a concurrent push
+            # (another publish, or a manual edit) can't cause a stale-commit reject
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            for deb in incoming/*.deb; do
+              pkg=$(dpkg-deb -f "$deb" Package)
+              echo "staging $pkg -> $(basename "$deb")"
+              rm -f "debs/${pkg}_"*.deb
+              cp "$deb" debs/
+            done
+            ./build-repo.sh
+            gpg --verify InRelease
+            git add -A
+            if git diff --cached --quiet; then
+              echo "no changes to publish"; exit 0
+            fi
             git commit -m "publish ${{ steps.in.outputs.repo }} ${{ steps.in.outputs.tag }}"
-            git push
-          fi
+            if git push; then echo "published on attempt $attempt"; exit 0; fi
+            echo "push rejected (attempt $attempt), retrying"; sleep $((attempt * 3))
+          done
+          echo "::error::could not push after retries"; exit 1
