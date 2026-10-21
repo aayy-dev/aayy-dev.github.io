@@ -9,10 +9,10 @@ Conflicts: com.sull.appinstaller, com.linusyang.appinst, ai.akemi.appinst, xyz.c
 Replaces: com.linusyang.appinst, ai.akemi.appinst, xyz.cypwn.appinst
 Provides: com.linusyang.appinst, ai.akemi.appinst
 Filename: debs/dev.aayy.appinst_2.1.1+crowbar1.aayy1_iphoneos-arm64.deb
-Size: 51266
-MD5sum: 61b012f0a925119f26c57db329c27545
-SHA1: 0d5763fd464edf4c5c7acfa98bc6fc5e2546144c
-SHA256: 6e4ff809dc23b99362c95f3a3e3e319f0fd0eada668dc246fb5ca3ba0692039d
+Size: 51468
+MD5sum: 1fbe212f98e5a95550af8e04bcb45bfd
+SHA1: 8cb41cc3e0118d120b35c8b5b854106e1af99657
+SHA256: e83a4be4dc8f31ba58f3808ba405f661d317a86d7e6e82c7e69ff2f1117469e6
 Section: Utilities
 Priority: standard
 Homepage: https://github.com/aayy-dev/AppSync
@@ -33,10 +33,10 @@ Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.ap
 Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified, ai.akemi.appsyncunified, xyz.cypwn.appsyncunified
 Provides: appsync, net.angelxwind.appsyncunified, ai.akemi.appsyncunified
 Filename: debs/dev.aayy.appsyncunified_116.0+crowbar1.aayy1_iphoneos-arm64.deb
-Size: 13306
-MD5sum: e1b5a668c7803cee52834c7d74975dfa
-SHA1: df9a3fb260d6bb6d004744382362991b588aaea7
-SHA256: 5c3090f5aebe3478dce04d36c9cd4b63f8caf6a802e8d46631ad08fee008660e
+Size: 13176
+MD5sum: 497a780846e8560ee2690c387b2c20af
+SHA1: aae349787f1b8b6ca48c2ac5854a3a324d8621b7
+SHA256: ec9f9341b6e87af0a4cfa47a42ac773ee3945ea783992010ad155606a248809d
 Section: Tweaks
 Homepage: https://github.com/aayy-dev/AppSync
 Description: Enables the ability to install unsigned/fakesigned iOS applications. iOS 26 fork of akemin-dayo/AppSync (installd + FrontBoard hooks unchanged).
