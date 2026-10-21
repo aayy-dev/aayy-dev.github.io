@@ -55,7 +55,7 @@ jobs:
         run: |
           mkdir -p incoming
           gh release download "${{ steps.in.outputs.tag }}" --repo "${{ steps.in.outputs.repo }}" \
-            --pattern '*.deb' --dir incoming
+            --pattern '*.deb' --dir incoming --clobber
           ls -l incoming
 
       - name: Stage, build, sign, and push (race-safe)
