@@ -49,14 +49,14 @@ Package: dev.aayy.ipadecrypt
 Version: 0.7.3-aayy.6
 Architecture: iphoneos-arm64
 Maintainer: aayy-dev <275768457+aayy-dev@users.noreply.github.com>
-Installed-Size: 41756
+Installed-Size: 41240
 Conflicts: com.korboy.ipadecrypt, com.korboy.ipadecrypt-app
 Replaces: com.korboy.ipadecrypt, com.korboy.ipadecrypt-app
 Filename: debs/dev.aayy.ipadecrypt_0.7.3-aayy.6_iphoneos-arm64.deb
-Size: 13907348
-MD5sum: 548c9367e7d8f8a359e9ff3f020ca0cf
-SHA1: 5f2e7135d57b83b3dcedd7e9aecaae0ea6386838
-SHA256: cf185b6e64742c1a085cbeb5c0985edc9e54d865a9026a284345c944903f23dc
+Size: 13682002
+MD5sum: 1578a157d8c6d0a6f293450e2a284962
+SHA1: 122190a83ff024e6ac9e856906a6485359733cd2
+SHA256: 011ccab7fa8e0495a0c0555e726ff31f2b7bf888e28ad2b7081f5fb9957bca6c
 Section: Applications
 Homepage: https://github.com/aayy-dev/ipadecrypt
 Description: On-device IPA decrypter. A fork of korboy's ipadecrypt (itself a fork of londek's) whose App Store sign-in and downloads work with Apple's current API.
