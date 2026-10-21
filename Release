@@ -3,19 +3,19 @@ Label: aayy-dev repo
 Suite: stable
 Version: 1.0
 Codename: ios
-Date: Wed, 21 Oct 2026 03:31:41 UTC
+Date: Wed, 21 Oct 2026 03:46:52 UTC
 Architectures: iphoneos-arm64
 Components: main
 Description: https://dev.rtrdd.fyi/
 MD5Sum:
- 32df4269b0aec5c3e7f9f61c3b9e7174 7929 Packages
- 7852d62747b980ed45dce090c3f98d0f 2934 Packages.bz2
- 25eee778abfc8b60584942d970c54dbf 2842 Packages.gz
- 9c6a01f75941ea4b202985664eeee679 2820 Packages.xz
- e4e88f939b77d2507c6c7335611b1bae 2804 Packages.zst
+ ec609d8b7a95cca73919c42e6a8c0847 7915 Packages
+ 311cd77510e0a90004d73afea6f8e7c6 2921 Packages.bz2
+ 007efc3e936978543825ca0e67521f66 2827 Packages.gz
+ e9d7d76caadd956fe1b5c94c607e1ac1 2804 Packages.xz
+ a9ada4c58c32cd1692c4eec44fecf46c 2786 Packages.zst
 SHA256:
- e0c40177e6a242b1dac365005f50133307632fb73520e02680c660a0844d5f4f 7929 Packages
- 08ff9a1e4acc48274325d2e3580857b7eb73f91ddc9ad7875dc59a828b9a52af 2934 Packages.bz2
- 89a37d188d7662b2c392b57e934ac33c97cda126ae7da0ff57a5ccc4a525d287 2842 Packages.gz
- 0f3a2be0c8b72f1bbca2ad100f58adb31eab9b04e0d30584ef2f7ef54d61990c 2820 Packages.xz
- 0dcc4ab364749f5a84abbcb7e3dbb94d93d033521fdc545af6123a61270800d1 2804 Packages.zst
+ a48ec4a7c6794a7fd86ec4324b99b31630a6c6d9341df6b6356afb876f35d7b7 7915 Packages
+ fad842d6961b3e026e5b4a17eebf0165f1af91fd5347eb8decebfcddc8407be6 2921 Packages.bz2
+ 87088d40c0bb9199395a8d761e94bf53138912740f877cf4efeb00d09340fc76 2827 Packages.gz
+ 68bf1565615d610afe4de43fdcccf4d41cb45284f497391aaf68e773b6707dd9 2804 Packages.xz
+ 517eedde02394e1c3b988003bdce23a2d5bb59854dabbaaa0b574a09714770f2 2786 Packages.zst
